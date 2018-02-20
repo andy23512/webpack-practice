@@ -15,3 +15,18 @@ img.style.backgroundColor = '#2B3A42';
 img.style.padding = '20px';
 img.width = 32;
 document.body.appendChild(img);
+
+const routes = {
+  dashboard: () => {
+    System.import('./dashboard')
+      .then(dashboard => {
+        dashboard.draw();
+      })
+      .catch(err => {
+        console.log('Chunk loading failed');
+      });
+  }
+};
+
+// demo async loading with a timeout
+setTimeout(routes.dashboard, 1000);
