@@ -1,0 +1,11 @@
+{
+  "name": "webpack-practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/andy23512/webpack-practice",
+  "author": "andy23512 <andy23512@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^3.11.0"
+  }
+}
