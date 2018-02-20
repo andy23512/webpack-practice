@@ -23,6 +23,7 @@
     "build": "webpack -p"
   },
   "dependencies": {
+    "d3": "^4.13.0",
     "lodash": "^4.17.5"
   }
 }
