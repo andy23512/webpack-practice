@@ -56,7 +56,7 @@ const config = {
       }
     ]
   },
-  plugins: [extractCSS, extractCommons]
+  plugins: [new webpack.NamedModulesPlugin(), extractCSS, extractCommons]
 };
 
 module.exports = config;

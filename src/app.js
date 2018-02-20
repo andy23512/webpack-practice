@@ -1,3 +1,7 @@
+if (module.hot) {
+  module.host.accept(); // accept hot reloading of this module and any of its dependencies
+}
+
 import './style.scss';
 import codeURL from './code.png';
 
