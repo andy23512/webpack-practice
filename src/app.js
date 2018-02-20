@@ -1,5 +1,5 @@
 if (module.hot) {
-  module.host.accept(); // accept hot reloading of this module and any of its dependencies
+  module.hot.accept(); // accept hot reloading of this module and any of its dependencies
 }
 
 import './style.scss';
